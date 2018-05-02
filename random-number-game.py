@@ -12,5 +12,4 @@ while guess != number:
     if guess < number:
         print('higher')
 
-print('yes! the number was {0}. you guessed correct! It took you {1} guesses.'
-      .format(number, counter))
+print('yes! the number was {0}. you guessed correct! It took you {1} guesses.'.format(number, counter))
